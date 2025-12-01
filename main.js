@@ -11,3 +11,8 @@ function cambiarColor() {
     const mensaje = document.getElementById("mensaje");
     mensaje.style.color = "green";
 }
+
+function cambiarFooter() {
+    const footer = document.getElementById("footer");
+    footer.textContent = "Texto del footer cambiado dinámicamente";
+}
